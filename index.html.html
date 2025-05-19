@@ -1,0 +1,62 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Meet | Login</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="container">
+    <h2>Welcome to Student Meet</h2>
+    <form action="/login" method="POST">
+      <input type="text" name="username" placeholder="Username" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <input type="submit" value="Login">
+    </form>
+  </div>
+
+</body>
+</html>
+<!-- dashboard.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Student Meet | Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="dashboard">
+    <div class="navbar">
+      <h1>👩‍🎓 Student Meet</h1>
+      <a href="/">Logout</a>
+    </div>
+    
+    <div class="dashboard-content">
+      <h2>Welcome Back!</h2>
+      <p>Here’s what’s happening on your campus today.</p>
+
+      <!-- Animated Graduate Icon -->
+      <img src="images/graduate.png" alt="Graduate" class="grad-icon">
+
+      <ul>
+        <li>📅 Upcoming Events: Tech Talk at 3 PM</li>
+        <li>👥 New Student Groups: "AI & Robotics Club"</li>
+        <li>📝 Your Tasks: Submit project proposal by Friday</li>
+      </ul>
+
+      <div>
+        <a href="/signup">Sign Up</a> | <a href="/login">Sign In</a>
+      </div>
+    </div>
+  </div>
+
+</body>
+</html>
